@@ -1,0 +1,18 @@
+{
+    "js": [
+        "js/columnControl.foundation.js",
+        "js/columnControl.foundation.min.js",
+        "js/columnControl.foundation.min.mjs",
+        "js/columnControl.foundation.mjs"
+    ],
+    "css": [
+        "css/columnControl.foundation.css",
+        "css/columnControl.foundation.min.css"
+    ],
+    "types": [
+        "types/columnControl.foundation.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/ColumnControl",
+    "last-tag": "0.0.1",
+    "last-sync": ""
+}

@@ -1,0 +1,54 @@
+{
+    "name": "datatables.net-columncontrol-zf",
+    "description": "ColumnControl for DataTables with styling for [Foundation](https://get.foundation/)",
+    "main": "js/columnControl.foundation.js",
+    "module": "js/columnControl.foundation.mjs",
+    "style": "css/columnControl.foundation.css",
+    "types": "./types/columnControl.foundation.d.ts",
+    "version": "0.0.1",
+    "files": [
+        "css/**/*.css",
+        "js/**/*.js",
+        "js/**/*.mjs",
+        "types/**/*.d.ts"
+    ],
+    "keywords": [
+        "ColumnControl",
+ "search",
+ "filter",
+ "buttons",
+ "column visibility",
+        "Foundation",
+        "Datatables",
+        "jQuery",
+        "table",
+        "filter",
+        "sort"
+    ],
+    "dependencies": {
+        "datatables.net-columncontrol": "~0.0.1",
+        "datatables.net-zf": "~2.2",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DataTables/Dist-DataTables-ColumnControl-Foundation.git"
+    }
+}
