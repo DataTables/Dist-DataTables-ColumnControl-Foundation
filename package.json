@@ -5,7 +5,7 @@
     "module": "js/columnControl.foundation.mjs",
     "style": "css/columnControl.foundation.css",
     "types": "./types/columnControl.foundation.d.ts",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -25,8 +25,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-columncontrol": "1.0.3",
-        "datatables.net-zf": "^2.3"
+        "datatables.net-columncontrol": "1.0.4",
+        "datatables.net-zf": "^2.3.2"
     },
     "moduleType": [
         "globals",
