@@ -1,13 +1,9 @@
-/*! Foundation styling wrapper for ColumnControl
- * © SpryMedia Ltd - datatables.net/license
+/*! ColumnControl Foundation styling 2.0.0-beta.1 for DataTables
+ * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
-import jQuery from 'jquery';
 import DataTable from 'datatables.net-zf';
 import ColumnControl from 'datatables.net-columncontrol';
-
-// Allow reassignment of the $ variable
-let $ = jQuery;
 
 
 DataTable.ColumnControl.content.dropdown.classes.container = [
@@ -21,3 +17,4 @@ DataTable.ColumnControl.content.dropdown.classes.container = [
 
 
 export default DataTable;
+
