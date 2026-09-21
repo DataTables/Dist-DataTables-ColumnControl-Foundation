@@ -1,6 +1,6 @@
 {
     "name": "datatables.net/datatables.net-columncontrol-zf",
-    "description": "ColumnControl for DataTables with styling for [Foundation](https://get.foundation/)",
+    "description": "ColumnControl for DataTables with styling for Foundation",
     "support": {
         "forum": "https://datatables.net/forums",
         "source": "https://github.com/DataTables/Dist-DataTables-ColumnControl-Foundation"

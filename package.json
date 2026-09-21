@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-columncontrol-zf",
     "description": "ColumnControl for DataTables with styling for [Foundation](https://get.foundation/)",
-    "main": "js/columnControl.foundation.js",
-    "module": "js/columnControl.foundation.mjs",
-    "style": "css/columnControl.foundation.css",
+    "main": "./js/columnControl.foundation.js",
+    "module": "./js/columnControl.foundation.mjs",
+    "style": "./css/columnControl.foundation.css",
     "types": "./types/columnControl.foundation.d.ts",
     "version": "2.0.2",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "ColumnControl",
@@ -38,5 +37,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/ColumnControl.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/columnControl.foundation.d.ts",
+            "import": "./js/columnControl.foundation.mjs",
+            "default": "./js/columnControl.foundation.mjs",
+            "require": "./js/columnControl.foundation.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/columnControl.foundation.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
