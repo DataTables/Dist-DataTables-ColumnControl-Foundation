@@ -41,9 +41,10 @@
     "exports": {
         ".": {
             "types": "./types/columnControl.foundation.d.ts",
+            "style": "./css/columnControl.foundation.css",
             "import": "./js/columnControl.foundation.mjs",
-            "default": "./js/columnControl.foundation.mjs",
-            "require": "./js/columnControl.foundation.js"
+            "require": "./js/columnControl.foundation.js",
+            "default": "./js/columnControl.foundation.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
