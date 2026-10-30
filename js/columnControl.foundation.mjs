@@ -1,4 +1,4 @@
-/*! ColumnControl Foundation styling 2.1.2 for DataTables
+/*! ColumnControl Foundation styling 2.1.3 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
